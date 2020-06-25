@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Dashboard - Notifications</title>
+        <link rel="stylesheet" type="text/css" href="app.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    </head>
+    <body class="app sidebar-mini">
+        <header class="app-header bg-color-white">
+            <a href="index.html" class="app-header_logo">
+                <img src="assets/img/logo_paylittle@2x.png" class="d-inline-block nav-bar-img" alt="" loading="lazy">
+            </a>
+            <a class="app-sidebar_toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar">
+                <span class="fa fa-bars color-black font-semi-lg"></span>
+            </a>
+            <ul class="app-nav">
+                <li class="dropdown">
+                    <a href="#" class="app-nav_item" data-toggle="dropdown" aria-label="Open Menu">
+                        <img src="assets/img/bell_alert@2x.png" style="width: 1.5rem" />
+                    </a>
+                    <ul class="dropdown-menu settings-menu dropdown-menu-right">
+                        <li>
+                            <a href="#" class="dropdown-item">You just purchased 10.0 PYL</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item pt-2">You just bought a property</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item pt-2">You just received 10.0 PYL</a>
+                        </li>
+                        <li>
+                            <div class="d-flex overflow-hidden py-3">
+                                <a href="notifications.html" class="btn mybtn mx-auto">VIEW MORE</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown pl-5">
+                    <a href="#" class="app-nav_item" data-toggle="dropdown" aria-label="Open Menu">
+                        <img src="assets/img/funny-png-avatar-2@2x.png" style="width: 1.5rem"/>
+                    </a>
+                    <ul class="dropdown-menu settings-menu dropdown-menu-right">
+                        <li>
+                            <a href="profile.html" class="dropdown-item">Profile</a>
+                        </li>
+                        <li>
+                            <a href="settings.html" class="dropdown-item">Settings</a>
+                        </li>
+                        <li>
+                            <a href="wallet.html" class="dropdown-item">Wallet</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        <aside class="app-sidebar bg-main-color">
+            <ul class="app-menu text-center">
+                <li class="bg-sky py-2 mx-auto">
+                    <a class="nav-link color-black app-menu_item" href="dashboard.html">
+                        <i class="fas fa-home icon-font"></i>
+                        <span class="d-block font-sm font-weight-bold">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="app-menu_item nav-link color-white" href="wallet.html">
+                        <i class="fas fa-wallet icon-font"></i>
+                        <span class="d-block font-sm font-weight-bold">Wallet</span>
+                    </a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="app-menu_item nav-link color-white" href="buy-coins.html">
+                        <i class="fas fa-coins icon-font"></i>
+                        <span class="d-block font-sm font-weight-bold">Buy Coin</span>
+                    </a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="app-menu_item nav-link color-white" href="settings.html">
+                        <i class="fas fa-cog icon-font"></i>
+                        <span class="d-block font-sm font-weight-bolder">Settings</span>
+                    </a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="nav-link app-menu_item color-white" href="property.html">
+                        <i class="fas fa-home icon-font"></i>
+                        <span class="d-block font-sm font-weight-bold">Properties</span>
+                    </a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="nav-link app-menu_item color-white" href="profile.html">
+                        <i class="fas fa-user icon-font"></i>
+                        <span class="d-block font-sm font-weight-bold">Profile</span>
+                    </a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="nav-link app-menu_item color-white" href="login.html">
+                        <i class="fas fa-sign-out-alt icon-font"></i>
+                        <span class="d-block font-sm font-weight-bold">Logout</span>
+                    </a>
+                </li>
+            </ul>  
+        </aside>
+        <main class="app-content">
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <div class="card mx-auto border shadow">
+                          <div class="card-body">
+                              <div class="card-title font-weight-bold reset-margin pb-3 px-4 border-bottom">
+                                  <h5 class="color-deep-gray">Notifications</h5>
+                              </div>
+                              <div class="row mt-0 color-deep-gray">
+                                  <div class="col-12">
+                                      <div class="px-4 pb-3 border-bottom reset-margin">
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">You Bought 10 PLY</span>
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">10th Apr 2010</span>
+                                      </div>
+                                      <div class="mb-1 px-4 py-3 border-bottom reset-margin">
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">You made a transfer of 11 PYL to ud438fhjio34hnfinr4jngfjknkjrngkvjnkrtgn</span>
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">10th Apr 2010</span>
+                                      </div>                                    
+                                      <div class="px-4 py-3 border-bottom reset-margin">
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">You added an external address jkvnejkrnkvelnrmvklermvklnjefnvjnrktjvwnklre</span>
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">10th Apr 2010</span>
+                                      </div>
+                                      <div class="mb-1 px-4 py-3 border-bottom reset-margin">
+                                          <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">You bought 11.4 PYL</span>
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">10th Apr 2010</span>
+                                      </div>
+                                      
+                                      <div class="mb-1 px-4 py-3 border-bottom reset-margin">
+                                          <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">You paid for a property with 23 PYL</span>
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">10th Apr 2010</span>
+                                      </div>
+                                      <div class="mb-3 px-4 py-3 border-bottom reset-margin">
+                                          <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">Your install mental payment of 12233 collected for property RT4</span>
+                                        <span class="d-block color-blackish-gray font-xm-normal font-weight-bold">10th Apr 2010</span>
+                                      </div>
+                                 </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
